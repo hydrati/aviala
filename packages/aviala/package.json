@@ -1,0 +1,13 @@
+{
+  "name": "aviala",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+  },
+  "keywords": [],
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com",
+    "access": "public"
+  }
+}

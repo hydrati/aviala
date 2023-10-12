@@ -15,12 +15,7 @@ export type Series = {
   500: Rgb,
 }
 
-export type DualModeSeries = {
-  dark: Series,
-  light: Series,
-}
-
-export type Color = Rgb | Series | DualModeSeries
+export type Color = Rgb | Series
 
 export type ColorList = Record<string, Color>
 

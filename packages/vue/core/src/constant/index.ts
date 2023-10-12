@@ -1,4 +1,3 @@
-
 export const kCommonPrefix = 'a'
 
 export const kColorPrefix = `${kCommonPrefix}-color`

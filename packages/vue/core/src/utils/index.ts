@@ -1,7 +1,8 @@
 import { CSSObject, Rule } from 'unocss'
 import { kCommonPrefix } from '../constant'
 
-export const prefix = (...s: string[]) => kCommonPrefix + '-' + s.join('-')
+export const prefix = (...s: (string | number)[]) =>
+  kCommonPrefix + '-' + s.join('-')
 
 export const generateRules = (
   key: string,
